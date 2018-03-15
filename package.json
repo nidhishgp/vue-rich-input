@@ -1,0 +1,34 @@
+{
+  "name": "vue-rich-input",
+  "version": "0.0.1",
+  "description": "An extended input for Vue JS to show errors and labels with Bulma css and support for v-model directive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidhishgp/vue-rich-input.git"
+  },
+  "keywords": [
+    "vue",
+    "input",
+    "v-model"
+  ],
+  "author": "Nidhish Pillai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidhishgp/vue-rich-input/issues"
+  },
+  "homepage": "https://github.com/nidhishgp/vue-rich-input#readme",
+  "devDependencies": {
+    "@storybook/vue": "^3.3.15",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bulma": "^0.6.2",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
